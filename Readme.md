@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Tarrasch/vault.png?branch=master)](https://travis-ci.org/Tarrasch/vault)
+
 *Vault* is a tiny library that provides a single data structure called *vault*.
 
 A *vault* is a type-safe, persistent storage for values of arbitrary types. Like `IORef`, I want to be able to store values of any type in it, but unlike `IORef`, I want the storage space to behave like a persistent, first-class data structure, as appropriate for a purely functional language.
